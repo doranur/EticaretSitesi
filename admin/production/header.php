@@ -54,6 +54,7 @@ if($say==0)
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
+    <link href="../build/css/duzen.css" rel="stylesheet">
 
     <!-- Ck editor scripti -->
     <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
@@ -65,22 +66,22 @@ if($say==0)
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+              <!-- <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a> -->
             </div>
 
             <div class="clearfix"></div>
 
-            <!-- menu profile quick info -->
+            <!-- menu profile quick info 
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="images/resim.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Hoşgeldin</span>
                 <h2><?php echo $kullanicicek['kullanici_adsoyad']; ?></h2>
               </div>
             </div>
-            <!-- /menu profile quick info -->
+            -->
 
             <br />
 
@@ -146,7 +147,7 @@ if($say==0)
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt=""><?php echo $kullanicicek['kullanici_adsoyad']; ?>
+                    <img src="images/resim.jpg" alt=""><?php echo $kullanicicek['kullanici_adsoyad']; ?>
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -156,7 +157,7 @@ if($say==0)
                     <li><a href="logout.php"><i class="fa fa-sign-out pull-right"></i> Güvenli Çıkış</a></li>
                   </ul>
                 </li>
-
+                  <!-- Mesaj Böümü gmail kapatma 
                 <li role="presentation" class="dropdown">
                   <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-envelope-o"></i>
@@ -165,7 +166,7 @@ if($say==0)
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/resim.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -177,7 +178,7 @@ if($say==0)
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/resim.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -189,7 +190,7 @@ if($say==0)
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/resim.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -201,7 +202,7 @@ if($say==0)
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/resim.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -220,7 +221,8 @@ if($say==0)
                       </div>
                     </li>
                   </ul>
-                </li>
+                </li> -->
+
               </ul>
             </nav>
           </div>
